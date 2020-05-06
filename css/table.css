@@ -1,0 +1,14 @@
+table, tr, th, td{
+    font-family: Verdana, sans-serif;
+    padding: 10px 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+button{
+    tr:nth-child(odd){
+        background-color: black;
+        color: #e0e0e0
+    }
+}
